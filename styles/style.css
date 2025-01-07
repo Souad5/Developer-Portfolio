@@ -3,6 +3,10 @@
     font-optical-sizing: auto;
     font-style: normal;
   }
+  *{
+    margin: 0;
+    padding: 0;
+  }
   /* font primary color */
   .color1{
     color:#FD6E0A;
@@ -21,7 +25,8 @@
     background-position: top left, bottom right;
     background-repeat: no-repeat;
     margin: 0;
-    
+    background-color: rgb(254, 250, 242);
+
   }
   nav .header{
     font-weight: 800;
@@ -51,6 +56,7 @@
     cursor: pointer;
     border-radius: 5px;
     border: none;
+    margin-top: 30px;
   }
   .image-property{
     
@@ -69,8 +75,54 @@
     font-size: 18;
     line-height: 30px;
     width: 585px;
-    height: 25px;
+    height: 25px;margin-bottom: 30px;
+
   }
   .text-{
     max-width: 585px;
   }
+  .font-greetings{
+    margin-bottom: 5px;
+  }
+  .bolder{
+    margin-bottom: 20px;
+  }
+  .main-about{
+    margin-top: 130px;
+    margin-left: 230px;
+    margin-right: 230px;
+    background-color: rgb(254, 250, 242);
+    margin-bottom: 130px;
+  }
+  .main-about .about-me .about-head{
+    text-align: center;
+  }
+  .main-about .about-me .objective{
+    text-align: center;
+    padding: 0 65px;
+  }
+  .about-head{
+    padding-top: 131px;
+    justify-content: center;
+    align-items: center;
+    color: #181818;
+  }
+  .objective{
+    margin-top: 30px;
+    color: #757575;
+  }
+  .about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-bottom: 130px;
+   
+  }
+ .about-indormation{
+    color: #757575;
+ }
+ .item-discription{
+    color:#474747;
+    font-weight: bold;
+    font-size: 20px;
+ }
